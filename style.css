@@ -18,7 +18,7 @@ font-size: 26px;
     }
 
 ::selection {
-  background: #f44268;
+  background: #f94e04;
   color: white;
 }
 
@@ -60,16 +60,17 @@ li::before {
   content: "• ";
 }
 
-li {
-  margin-bottom:0px;
-}
-
-a {
+li > a {
   text-decoration: none;
 }
 
-a {
-  display: inline-block;
+li {
+  margin-bottom:1em;
+  text-decoration: none;
+}
+
+li:hover {
+  text-decoration: underline;
 }
 
 hr {
@@ -129,7 +130,7 @@ img {
 }
 
 p > a, h5 > a {
-  color: #f44268;
+  color: #f94e04;
   text-decoration: underline;
   margin-bottom: 0px;
 }
